@@ -11,6 +11,7 @@ public class Anagrams {
         Collections.sort(dictionary, canon);
         
     }
+    //returns an ArrayList with the indices of the anagrams for the target word
     public static ArrayList<Integer> findAnagrams(ArrayList<String> dictionary, String target, 
     CanonicalComparator canon) {
         ArrayList<Integer> indices = new ArrayList<Integer>();
